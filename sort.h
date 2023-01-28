@@ -5,6 +5,17 @@
 #include <stdlib.h>
 
 /**
+ * enum bool - Enumeration of boolean values
+*/
+
+typedef enum bool
+{
+	false = 0,
+	true
+} bool;
+
+
+/**
  * struct listint_s - Doubly linked list node
  *
  * @n: Integer stored in the node
